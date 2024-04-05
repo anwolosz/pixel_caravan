@@ -1,3 +1,9 @@
 .panel{
     background: linear-gradient(#fc9f30, #ff9411);
 }
+
+.mine {
+    
+    background-image: url("../assets/mine3.svg"), url("../assets/mine4.svg");
+
+}
