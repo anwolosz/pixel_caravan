@@ -1,6 +1,11 @@
-.panel{
-    background: linear-gradient(#fc9f30, #ff9411);
+.sky{
+    background: linear-gradient(#85b6ff, #0d6efd);
 }
+
+.panel{
+    background-image: url("../assets/rect.svg")
+}
+
 
 .mine {
     
