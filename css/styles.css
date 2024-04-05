@@ -7,3 +7,14 @@
     background-image: url("../assets/mine3.svg"), url("../assets/mine4.svg");
 
 }
+
+@font-face {
+    font-family: 'Zanzibar';
+    src: url('../assets/font/Zanzabar.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.arabic {
+    font-family: Zanzibar;
+}
