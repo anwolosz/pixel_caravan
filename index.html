@@ -59,9 +59,9 @@
 
       </path>
       <filter id="noise">
-        <feTurbulence type="fractalNoise" baseFrequency="1500" result="noisy" />
-        <feSpecularLighting surfaceScale="15" specularConstant="0.75" specularExponent="20" lighting-color="#7957A8" x="0%" y="0%" width="100%" height="100%" in="turbulence" result="specularLighting">
-          <feDistantLight azimuth="3" elevation="100"></feDistantLight>
+        <feTurbulence type="fractalNoise" baseFrequency="150" result="noisy" />
+        <feSpecularLighting surfaceScale="10" specularConstant="1.5" specularExponent="20" lighting-color="#9c9a1f" x="0%" y="0%" width="100%" height="100%" in="turbulence" result="specularLighting">
+          <feDistantLight azimuth="0.3" elevation="1"></feDistantLight>
         </feSpecularLighting>
         <feColorMatrix type="saturate" values="0" />
         <feComposite operator="in" in2="SourceGraphic" result="noisy" />
