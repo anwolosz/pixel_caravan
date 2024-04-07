@@ -17,6 +17,32 @@
     background: linear-gradient( #0d6efd, #053376   );
 }
 
+.footer{
+    background: #000916;
+}
+
+.mine, .panel, .oazis {
+    padding-top: 80px;
+}
+
+.hoverable {
+    cursor: pointer;
+    background: rgb(10,50,70, 0.5);
+    
+    transition: background .3s;
+}
+.hoverable:hover {
+    background:  rgba(10, 50, 70); 
+}
+
+
+.link {
+    transition: box-shadow .3s;
+}
+.link:hover {
+    box-shadow: 0px 2px 0px white, 0px -2px 0px white;
+}
+
 @font-face {
     font-family: 'Zanzibar';
     src: url('../assets/font/Zanzabar.otf');
