@@ -4,17 +4,20 @@
     /* background: transparent; */
     /* background-image: url("../assets/paper.svg"); */
     
-    background-image: url("../assets/carpet9.png");
+    background-image: url("../assets/carpet12.png");
     background-size: 68px;
+    background-position: center bottom;
+
     height: 90px;
 
     background-repeat: repeat-x;
     /* height: 96px; */
 
     
+    
 }
 .menu {
-    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    text-shadow: -1px -1px 3px #000, 1px -1px 3px #000, -1px 1px 3px #000, 1px 1px 3px #000;
     
 }
 .menu-elem{
