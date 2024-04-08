@@ -1,8 +1,31 @@
+.carpet
+{
+    align-items: start;
+    /* background: transparent; */
+    /* background-image: url("../assets/paper.svg"); */
+    
+    background-image: url("../assets/carpet9.png");
+    background-size: 68px;
+    height: 90px;
+
+    background-repeat: repeat-x;
+    /* height: 96px; */
+
+    
+}
+.menu {
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    
+}
+.menu-elem{
+    color: white;
+}
 .sky{
     background: linear-gradient(#85b6ff, #0d6efd);
 }
 
 .panel{
+    background-color: #fc9f30;
     background-image: url("../assets/rect.svg")
 }
 
