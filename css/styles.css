@@ -1,28 +1,27 @@
 .carpet
 {
-    align-items: start;
     /* background: transparent; */
     /* background-image: url("../assets/paper.svg"); */
     
     background-image: url("../assets/carpet12.png");
     background-size: 68px;
     background-position: center bottom;
-
+    
+    
     height: 90px;
 
     background-repeat: repeat-x;
     /* height: 96px; */
-
+    
     
     
 }
 .menu {
-    text-shadow: -1px -1px 3px #000, 1px -1px 3px #000, -1px 1px 3px #000, 1px 1px 3px #000;
-    
+    align-items: start;
+    text-shadow: -1px -1px 3px #000, 1px -1px 3px #000, -1px 1px 3px #000, 1px 1px 3px #000;   
 }
-.menu-elem{
-    color: white;
-}
+
+
 .sky{
     background: linear-gradient(#85b6ff, #0d6efd);
 }
